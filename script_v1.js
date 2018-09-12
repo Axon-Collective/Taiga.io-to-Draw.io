@@ -1,3 +1,4 @@
+//Developed by Daniel Reaser - sponsored by Axon Collective
 var json = "tmp";
 $("#convert").click(function(){
 	json = $("#json").val();
@@ -27,9 +28,6 @@ $('[data-toggle="tooltip"]').tooltip({
 	trigger: 'click',
 });
 
-
-
-alert("Hello! I am an alert box!!");
 
 var template = `#
 # <br><i style='color:gray;'>%name%</i><br><a href='%link%'>Go to taiga</a><br>

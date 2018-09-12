@@ -1,0 +1,39 @@
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" />
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+<link rel="stylesheet" href="./styles.css" />
+<script src="script_v1.js"></script>
+
+</head>
+<body>
+
+
+<div class="my-container">
+  <div class="my-header">
+    Taiga.io to Draw.io <i class="fas fa-info-circle show-app-info"></i>
+  </div>
+  <div class="my-content">
+  <div id="app">
+      <textarea id="json" placeholder="Paste taiga.io export json here"></textarea>
+      <button id="convert"> Convert</button>
+
+      <textarea id="output" data-toggle="tooltip" data-placement="top" title="Copied to clipboard!"></textarea>
+  </div>
+  <div id="app-info" style="display:none;">
+  <p clas="description">
+    This application is a simple javascript app that converts taiga.io project json data into draw.io network diagram data.
+    The data from this export can be continuously imported into the same draw.io diagram to keep all the data up to date.
+    </p>
+  </div>
+
+  </div>
+</div>
+</body>

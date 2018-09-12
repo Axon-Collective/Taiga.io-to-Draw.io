@@ -29,7 +29,7 @@ $('[data-toggle="tooltip"]').tooltip({
 
 
 
-
+alert("Hello! I am an alert box!!");
 
 var template = `#
 # <br><i style='color:gray;'>%name%</i><br><a href='%link%'>Go to taiga</a><br>
